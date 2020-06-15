@@ -4,7 +4,6 @@ import ProjectData from '../data/projects.json'
 
 export const ProjectBody = () => {
     const { id } = useParams();
-    console.log(ProjectData[id].title)
 
     return (
         <div>

@@ -1,10 +1,15 @@
+//libraries
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+//styling
+import './App.css';
+
+//components
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 
+//pages
 import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Contact } from './pages/Contact'
