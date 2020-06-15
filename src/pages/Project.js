@@ -1,17 +1,12 @@
-import React, { useEffect } from 'react'
-import { useParams } from 'react-router-dom';
-import ProjectData from '../data/projects.json'
+import React from 'react'
+import { ProjectBody } from '../content/ProjectBody'
 
 export const Project = () => {
-    const { id } = useParams();
 
-    useEffect(() => {
-        
-    }, [])
 
     return (
-        <div>
-            
+        <div class="container">
+            <ProjectBody />
         </div>
     )
 }

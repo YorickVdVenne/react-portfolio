@@ -23,7 +23,7 @@ export const AboutMeBody = () => {
                         Text about me, even more text about me.
                         Text about me, even more text about me.
                     </p>
-                    <p>Heb je vragen voor me?</p>
+                    <p>Have any questions for me?</p>
                     <Link to={'/contact'} class="btn-link" >Contact</Link>
                 </div>
             </div>

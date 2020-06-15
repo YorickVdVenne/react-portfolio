@@ -1,20 +1,20 @@
 [
     {
+        "id":0,
+        "title": "This is my first Project",
+        "lead": "This Project is about the first thing that i did",
+        "text": "Here is where i give alot of information about my Project that i worked on. It's really cool etc..."
+    },
+    {
         "id":1,
-        "title": "Hello World",
-        "lead": "Hello this is my first project about hello world",
-        "text": "Here is alot of info about my project"
+        "title": "This is my second Project",
+        "lead": "This Project is about the second thing that i did",
+        "text": "Here is where i give alot of information about my Project that i worked on. It's really cool etc..."
     },
     {
         "id":2,
-        "title": "Hello World",
-        "lead": "Hello this is my first project about hello world",
-        "text": "Here is alot of info about my project"
-    },
-    {
-        "id":3,
-        "title": "Hello World",
-        "lead": "Hello this is my first project about hello world",
-        "text": "Here is alot of info about my project"
+        "title": "This is my third Project",
+        "lead": "This Project is about the third thing that i did",
+        "text": "Here is where i give alot of information about my Project that i worked on. It's really cool etc..."
     }
 ]

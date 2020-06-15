@@ -14,11 +14,11 @@ export const ProjectCard = () => {
                 <div class="col">
                     <div class="card-deck">
                         <div class="card mb-5">
-                            <img class="card-img-top" src={Placeholder} alt="Card image cap"/>
+                            <img class="card-img-top" src={Placeholder} alt={projectDetail.title}/>
                             <div class="card-body">
                                 <h5 class="card-title">{projectDetail.title}</h5>
                                 <p class="card-text">{projectDetail.lead}</p>
-                                <Link to={`/projects/${projectDetail.id}`} class="btn btn-primary">Bekijk Project</Link>
+                                <Link to={`/projects/${projectDetail.id}`} class="btn btn-primary">Go to Project</Link>
                             </div>
                         </div>
                     </div>
