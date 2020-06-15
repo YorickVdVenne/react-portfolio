@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectData from '../data/projects.json'
 import  Placeholder  from '../img/placeholder.png'
 import { Link } from 'react-router-dom';
+import Draggable from 'react-draggable'
 
 
 export const ProjectCard = () => {
@@ -9,6 +10,7 @@ export const ProjectCard = () => {
         <div>
             {ProjectData.map((projectDetail, index) => {
                 return (
+                <Draggable>
                 <div class="col">
                     <div class="card-deck">
                         <div class="card mb-5">
@@ -21,6 +23,7 @@ export const ProjectCard = () => {
                         </div>
                     </div>
                 </div>
+                </Draggable>
                 )
             })}
         </div>
