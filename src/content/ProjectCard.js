@@ -1,6 +1,8 @@
 import React from 'react'
 import ProjectData from '../data/projects.json'
 import  Placeholder  from '../img/placeholder.png'
+import { Link } from 'react-router-dom';
+
 
 export const ProjectCard = () => {
     return (
@@ -14,7 +16,7 @@ export const ProjectCard = () => {
                             <div class="card-body">
                                 <h5 class="card-title">{projectDetail.title}</h5>
                                 <p class="card-text">{projectDetail.lead}</p>
-                                <a href={projectDetail.id} class="btn btn-primary">Bekijk Project</a>
+                                <Link to={`/projects/${projectDetail.id}`} class="btn btn-primary">Bekijk Project</Link>
                             </div>
                         </div>
                     </div>
