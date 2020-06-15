@@ -1,9 +1,10 @@
 import React from 'react'
+import { AboutMeBody } from '../content/AboutMeBody'
 
 export const About = () => {
     return (
-        <div>
-            About Me
-        </div>
+        <>
+        <AboutMeBody/>
+        </>
     )
 }
